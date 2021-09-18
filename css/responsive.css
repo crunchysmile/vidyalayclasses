@@ -2,12 +2,25 @@
     .c-3,.c-4{
         display: none;
     }
-}
-@media screen and (max-width:700px)  {
+    .carousel-caption h1{
+        font-size: 20px;
+    }
     .carousel-caption{
         position: absolute;
-        top: 40%;
+        top: 15%;
     }
+    /* ======explore more button  */
+    .btn{
+        padding: 10px 12px;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:700px)  {
+    /* .carousel-caption{
+        position: absolute;
+        top: 40%;
+    } */
 }
 @media screen and (min-width:700px)  {
     .carousel-caption{
